@@ -1,0 +1,105 @@
+2025-07-29 00:53:49,375 - app.core.logging - INFO - Starting Multi-Agent System
+2025-07-29 00:53:49,375 - app.core.logging - INFO - Debug mode: False
+2025-07-29 00:53:49,376 - app.core.logging - INFO - All systems initialized successfully
+2025-07-29 00:54:22,695 - app.core.logging - INFO - Request /docs took 0.00s
+2025-07-29 00:54:25,758 - app.core.logging - INFO - Request /openapi.json took 0.03s
+2025-07-29 00:54:25,851 - app.core.logging - INFO - Request /redoc took 0.00s
+2025-07-29 00:54:29,013 - app.core.logging - INFO - Request /openapi.json took 0.00s
+2025-07-29 00:56:01,069 - app.core.logging - INFO - Processing query: Extract and analyze all numerical data from this t...
+2025-07-29 00:56:01,078 - agent.Orchestrator - INFO - Starting Orchestrator processing
+2025-07-29 00:56:02,390 - agent.Orchestrator - INFO - Completed Orchestrator processing
+2025-07-29 00:56:02,392 - app.services.graph_builder - INFO - Routing from orchestrator to data_processor
+2025-07-29 00:56:02,395 - agent.DataProcessor - INFO - Starting DataProcessor processing
+2025-07-29 00:56:06,322 - agent.DataProcessor - INFO - Completed DataProcessor processing
+2025-07-29 00:56:06,323 - app.services.graph_builder - INFO - Routing from data processor to communicator
+2025-07-29 00:56:06,326 - agent.Communicator - INFO - Starting Communicator processing
+2025-07-29 00:56:10,416 - agent.Communicator - INFO - Completed Communicator processing
+2025-07-29 00:56:10,422 - app.core.logging - INFO - Request /api/v1/process took 9.36s
+2025-07-29 00:57:28,482 - app.core.logging - INFO - Processing query: Compare AWS, Azure, and Google Cloud for a startup...
+2025-07-29 00:57:28,483 - agent.Orchestrator - INFO - Starting Orchestrator processing
+2025-07-29 00:57:29,599 - agent.Orchestrator - INFO - Completed Orchestrator processing
+2025-07-29 00:57:29,601 - app.services.graph_builder - INFO - Routing from orchestrator to data_processor
+2025-07-29 00:57:29,605 - agent.DataProcessor - INFO - Starting DataProcessor processing
+2025-07-29 00:57:33,525 - agent.DataProcessor - INFO - Completed DataProcessor processing
+2025-07-29 00:57:33,526 - app.services.graph_builder - INFO - Routing from data processor to decision maker
+2025-07-29 00:57:33,528 - agent.DecisionMaker - INFO - Starting DecisionMaker processing
+2025-07-29 00:57:42,319 - agent.DecisionMaker - ERROR - Error in DecisionMaker: Decision making failed: StructuredTool does not support sync invocation.
+2025-07-29 00:57:42,321 - app.core.logging - ERROR - Error processing query: Agent DecisionMaker failed: Decision making failed: StructuredTool does not support sync invocation.
+2025-07-29 00:57:42,323 - app.core.logging - INFO - Request /api/v1/process took 13.84s
+2025-07-29 00:58:10,831 - app.core.logging - INFO - Processing query: Explain blockchain technology to a non-technical e...
+2025-07-29 00:58:10,837 - agent.Orchestrator - INFO - Starting Orchestrator processing
+2025-07-29 00:58:11,559 - agent.Orchestrator - INFO - Completed Orchestrator processing
+2025-07-29 00:58:11,569 - app.services.graph_builder - INFO - Routing from orchestrator to communicator
+2025-07-29 00:58:11,573 - agent.Communicator - INFO - Starting Communicator processing
+2025-07-29 00:58:16,774 - agent.Communicator - INFO - Completed Communicator processing
+2025-07-29 00:58:16,776 - app.core.logging - INFO - Request /api/v1/process took 5.95s
+2025-07-29 00:58:45,285 - app.core.logging - INFO - Processing query: Research current AI trends in healthcare, analyze ...
+2025-07-29 00:58:45,286 - agent.Orchestrator - INFO - Starting Orchestrator processing
+2025-07-29 00:58:46,159 - agent.Orchestrator - INFO - Completed Orchestrator processing
+2025-07-29 00:58:46,160 - app.services.graph_builder - INFO - Routing from orchestrator to data_processor
+2025-07-29 00:58:46,162 - agent.DataProcessor - INFO - Starting DataProcessor processing
+2025-07-29 00:58:49,783 - agent.DataProcessor - INFO - Completed DataProcessor processing
+2025-07-29 00:58:49,784 - app.services.graph_builder - INFO - Routing from data processor to communicator
+2025-07-29 00:58:49,786 - agent.Communicator - INFO - Starting Communicator processing
+2025-07-29 00:58:55,214 - agent.Communicator - INFO - Completed Communicator processing
+2025-07-29 00:58:55,254 - app.core.logging - INFO - Request /api/v1/process took 9.97s
+2025-07-29 00:59:40,150 - app.core.logging - INFO - Request /api/v1/process took 0.00s
+2025-07-29 00:59:40,727 - app.core.logging - INFO - Request /favicon.ico took 0.00s
+2025-07-29 01:00:30,747 - app.core.logging - INFO - Request /api/v1/process took 0.00s
+2025-07-29 01:00:59,255 - app.core.logging - INFO - Processing query: Compare Python vs JavaScript for backend developme...
+2025-07-29 01:00:59,315 - agent.Orchestrator - INFO - Starting Orchestrator processing
+2025-07-29 01:01:00,326 - agent.Orchestrator - INFO - Completed Orchestrator processing
+2025-07-29 01:01:00,327 - app.services.graph_builder - INFO - Routing from orchestrator to data_processor
+2025-07-29 01:01:00,329 - agent.DataProcessor - INFO - Starting DataProcessor processing
+2025-07-29 01:01:02,781 - agent.DataProcessor - INFO - Completed DataProcessor processing
+2025-07-29 01:01:02,801 - app.services.graph_builder - INFO - Routing from data processor to decision maker
+2025-07-29 01:01:02,811 - agent.DecisionMaker - INFO - Starting DecisionMaker processing
+2025-07-29 01:01:10,960 - agent.DecisionMaker - ERROR - Error in DecisionMaker: Decision making failed: StructuredTool does not support sync invocation.
+2025-07-29 01:01:10,961 - app.core.logging - ERROR - Error processing query: Agent DecisionMaker failed: Decision making failed: StructuredTool does not support sync invocation.
+2025-07-29 01:01:10,963 - app.core.logging - INFO - Request /api/v1/process took 11.71s
+2025-07-29 01:01:45,963 - app.core.logging - INFO - Processing query: What's the compound annual growth rate if revenue ...
+2025-07-29 01:01:45,992 - agent.Orchestrator - INFO - Starting Orchestrator processing
+2025-07-29 01:01:46,724 - agent.Orchestrator - INFO - Completed Orchestrator processing
+2025-07-29 01:01:46,737 - app.services.graph_builder - INFO - Routing from orchestrator to data_processor
+2025-07-29 01:01:46,742 - agent.DataProcessor - INFO - Starting DataProcessor processing
+2025-07-29 01:01:50,289 - agent.DataProcessor - INFO - Completed DataProcessor processing
+2025-07-29 01:01:50,290 - app.services.graph_builder - INFO - Routing from data processor to communicator
+2025-07-29 01:01:50,292 - agent.Communicator - INFO - Starting Communicator processing
+2025-07-29 01:01:54,340 - agent.Communicator - INFO - Completed Communicator processing
+2025-07-29 01:01:54,345 - app.core.logging - INFO - Request /api/v1/process took 8.39s
+2025-07-29 01:02:45,939 - app.core.logging - INFO - Request /api/v1/process took 0.00s
+2025-07-29 01:06:23,494 - app.core.logging - INFO - Shutting down application
+2025-07-29 12:03:12,969 - app.core.logging - INFO - Starting Multi-Agent System
+2025-07-29 12:03:12,970 - app.core.logging - INFO - Debug mode: False
+2025-07-29 12:03:12,971 - app.core.logging - INFO - All systems initialized successfully
+2025-07-29 12:03:36,561 - app.core.logging - INFO - Request /docs took 0.01s
+2025-07-29 12:03:36,902 - app.core.logging - INFO - Request /openapi.json took 0.03s
+2025-07-29 12:04:14,839 - app.core.logging - INFO - Processing query: Extract insights from sales data: Q1: $100k, Q2: $...
+2025-07-29 12:04:14,896 - agent.Orchestrator - INFO - Starting Orchestrator processing
+2025-07-29 12:04:15,899 - agent.Orchestrator - INFO - Completed Orchestrator processing
+2025-07-29 12:04:15,899 - app.services.graph_builder - INFO - Routing from orchestrator to data_processor
+2025-07-29 12:04:15,902 - agent.DataProcessor - INFO - Starting DataProcessor processing
+2025-07-29 12:04:19,805 - agent.DataProcessor - INFO - Completed DataProcessor processing
+2025-07-29 12:04:19,806 - app.services.graph_builder - INFO - Routing from data processor to communicator
+2025-07-29 12:04:19,808 - agent.Communicator - INFO - Starting Communicator processing
+2025-07-29 12:04:23,799 - agent.Communicator - INFO - Completed Communicator processing
+2025-07-29 12:04:24,344 - app.core.logging - INFO - Request /api/v1/process took 9.52s
+2025-07-29 12:06:56,798 - app.core.logging - INFO - Processing query: Explain machine learning to a 10-year-old...
+2025-07-29 12:06:56,808 - agent.Orchestrator - INFO - Starting Orchestrator processing
+2025-07-29 12:06:57,496 - agent.Orchestrator - INFO - Completed Orchestrator processing
+2025-07-29 12:06:57,500 - app.services.graph_builder - INFO - Routing from orchestrator to communicator
+2025-07-29 12:06:57,502 - agent.Communicator - INFO - Starting Communicator processing
+2025-07-29 12:07:01,496 - agent.Communicator - INFO - Completed Communicator processing
+2025-07-29 12:07:01,500 - app.core.logging - INFO - Request /api/v1/process took 4.70s
+2025-07-29 12:13:13,297 - app.core.logging - INFO - Processing query: Compare Python vs JavaScript for backend developme...
+2025-07-29 12:13:13,301 - agent.Orchestrator - INFO - Starting Orchestrator processing
+2025-07-29 12:13:14,616 - agent.Orchestrator - INFO - Completed Orchestrator processing
+2025-07-29 12:13:14,617 - app.services.graph_builder - INFO - Routing from orchestrator to data_processor
+2025-07-29 12:13:14,619 - agent.DataProcessor - INFO - Starting DataProcessor processing
+2025-07-29 12:13:17,636 - agent.DataProcessor - INFO - Completed DataProcessor processing
+2025-07-29 12:13:17,637 - app.services.graph_builder - INFO - Routing from data processor to decision maker
+2025-07-29 12:13:17,639 - agent.DecisionMaker - INFO - Starting DecisionMaker processing
+2025-07-29 12:13:28,202 - agent.DecisionMaker - ERROR - Error in DecisionMaker: Decision making failed: StructuredTool does not support sync invocation.
+2025-07-29 12:13:28,203 - app.core.logging - ERROR - Error processing query: Agent DecisionMaker failed: Decision making failed: StructuredTool does not support sync invocation.
+2025-07-29 12:13:28,206 - app.core.logging - INFO - Request /api/v1/process took 14.91s
+2025-07-29 12:13:39,798 - app.core.logging - INFO - Shutting down application
