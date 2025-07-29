@@ -1,6 +1,6 @@
 # Multi‑Agent AI System
 
-A scalable, maintainable, and modular AI agent framework built with FastAPI and LangChain. Orchestrate multiple specialized agents (data processing, decision‑making, communication) through a single RESTful interface, following software engineering best practices.
+A scalable, maintainable, modular AI agent framework built with FastAPI and LangChain. Orchestrate specialized agents—data processors, decision engines, and communicators—through a single, unified REST API.
 
 ---
 
@@ -121,7 +121,7 @@ Open the interactive API docs in your browser: [http://127.0.0.1:8000/docs](http
 
 - **POST** `/api/v1/process`
 
-**Request Body:**
+**Request Body 01:**
 ```json
 {
   "query": "Explain machine learning to a 10-year-old",
@@ -130,31 +130,20 @@ Open the interactive API docs in your browser: [http://127.0.0.1:8000/docs](http
 ```
 
 **Response:**
+
+<img src="images/img 2.jpg">
+
+**Request Body 02:**
 ```json
 {
-  "result": "Machine learning is like teaching a computer to learn from examples..."
+  "query": "Extract insights from sales data: Q1: $100k, Q2: $150k, Q3: $120k, Q4: $180k",
+   "task_type": "data_processing"
 }
 ```
 
----
+**Response:**
 
-## Running Tests
-
-### 1. Unit Tests
-
-```bash
-pytest tests/
-```
-
-### 2. API Test Script
-
-Make sure the server is running, then:
-
-```bash
-python test_api.py
-```
-
-This will send example requests to the API and print the responses.
+<img src="images/img 1.jpg">
 
 ---
 
@@ -187,18 +176,6 @@ This will send example requests to the API and print the responses.
 1. **Inherit from `BaseAgent`** and implement the `process` method.
 2. **Register your agent** in the orchestrator or graph builder.
 3. **Update routing logic** if your agent handles a new task type.
-
----
-
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a pull request
 
 ---
 
